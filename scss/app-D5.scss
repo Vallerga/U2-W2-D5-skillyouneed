@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+$realBlack: #111111;
+$realOrange: #f37221;
+$realRed: #F35246;
+$Blood: rgb(151, 2, 2);
+
+body {
+  font-family: "Spectral", serif;
+}
+
+@mixin tag {
+  font-size: 0.6rem;
+  padding: 5px 5px;
+  &:hover {
+    background-color: $realOrange;
+    color: $realBlack;
+    padding: 10px 5px;
+  }
+}
+
+@mixin baseButton($mainColor, $secondColor) {
+  padding: 0 5px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: $secondColor;
+  color: $mainColor;
+  outline: 1px solid $mainColor;
+  &:hover {
+    outline: 1px solid $secondColor;
+    color: $secondColor;
+    background-color: $mainColor;
+  }
+}
+
+nav div {
+  background: $realBlack;
+}
+
+small {
+  @include tag;
+}
+
+.navText {
+  height: 20px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.navButton {
+  @include baseButton($realOrange, $realBlack);
+}
+
+h1,h2,h3 {
+    color: $realOrange!important;
+}
+
+h4,h5 {
+    color: $realBlack;
+}
+
+p {
+    color: $realBlack;
+}
+
+.maslow {
+    width: 50%;
+}

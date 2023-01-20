@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Spectral", serif;
+}
+
+nav div {
+  background: #111111;
+}
+
+small {
+  font-size: 0.6rem;
+  padding: 5px 5px;
+}
+small:hover {
+  background-color: #f37221;
+  color: #111111;
+  padding: 10px 5px;
+}
+
+.navText {
+  height: 20px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.navButton {
+  padding: 0 5px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #111111;
+  color: #f37221;
+  outline: 1px solid #f37221;
+}
+.navButton:hover {
+  outline: 1px solid #111111;
+  color: #111111;
+  background-color: #f37221;
+}
+
+h1, h2, h3 {
+  color: #f37221 !important;
+}
+
+h4, h5 {
+  color: #111111;
+}
+
+p {
+  color: #111111;
+}
+
+.maslow {
+  width: 50%;
+}/*# sourceMappingURL=app-D5.css.map */
