@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 $realBlack: #111111;
 $realOrange: #f37221;
-$realRed: #F35246;
-$Blood: rgb(151, 2, 2);
+$realRed: #f35246;
+$darkRed: rgb(165, 15, 15);
 
 body {
   font-family: "Spectral", serif;
@@ -18,8 +18,13 @@ body {
   }
 }
 
+.dropdown-RealOrange {
+  background-color: $realOrange;
+
+}
+
 @mixin baseButton($mainColor, $secondColor) {
-  padding: 0 5px;
+  padding: 5px 8px;
   margin: 0;
   border-radius: 5px;
   cursor: pointer;
@@ -52,18 +57,68 @@ small {
   @include baseButton($realOrange, $realBlack);
 }
 
-h1,h2,h3 {
-    color: $realOrange!important;
+.mainButton {
+  @include baseButton($realBlack, $realOrange);
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 1.4rem;
 }
 
-h4,h5 {
-    color: $realBlack;
+#main {
+  margin: 5% 15% !important;
+  p {
+    margin: 2% 0 !important;
+  }
+  li {
+    margin: 2% 0 !important;
+  }
 }
 
+h1,
+h2{
+  color: $realOrange !important;
+}
+
+h3{
+  color: $darkRed !important;
+  font-size: 1.5rem;
+}
+
+h4,
+h5,
 p {
-    color: $realBlack;
+  color: $realBlack;
 }
 
-.maslow {
-    width: 50%;
+.fontdacorregg {
+  @media screen and (min-width: 700px) and (max-width: 1350px) {
+    font-size: 0.8rem !important;
+    text-align: center;
+  }
+}
+
+#spacer {
+  @media screen and (min-width: 2050px) {
+    // border: white solid 1px !important;
+    width: 50% !important;
+  }
+  @media screen and (min-width: 1750px) and (max-width: 2050px) {
+    // border: rgb(221, 20, 20) solid 1px !important;
+    width: 40% !important;
+  }
+  @media screen and (min-width: 1550px) and (max-width: 1750px) {
+    // border: green solid 1px !important;
+    width: 30% !important;
+  }
+  @media screen and (min-width: 1350px) and (max-width: 1550px) {
+    // border: blueviolet solid 1px !important;
+    width: 20% !important;
+  }
+  @media screen and (max-width: 1350px) {
+    // border: yellow solid 1px !important;
+    width: 5% !important;
+  }
+  @media screen and (max-width: 1150px) {
+    width: 0% !important;
+  }
 }

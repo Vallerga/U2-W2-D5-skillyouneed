@@ -3,6 +3,10 @@ body {
   font-family: "Spectral", serif;
 }
 
+.dropdown-RealOrange {
+  background-color: #f37221;
+}
+
 nav div {
   background: #111111;
 }
@@ -24,7 +28,7 @@ small:hover {
 }
 
 .navButton {
-  padding: 0 5px;
+  padding: 5px 8px;
   margin: 0;
   border-radius: 5px;
   cursor: pointer;
@@ -38,18 +42,84 @@ small:hover {
   background-color: #f37221;
 }
 
-h1, h2, h3 {
+.mainButton {
+  padding: 5px 8px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f37221;
+  color: #111111;
+  outline: 1px solid #111111;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.mainButton:hover {
+  outline: 1px solid #f37221;
+  color: #f37221;
+  background-color: #111111;
+}
+
+#main {
+  margin: 5% 15% !important;
+}
+#main p {
+  margin: 2% 0 !important;
+}
+#main li {
+  margin: 2% 0 !important;
+}
+
+h1,
+h2 {
   color: #f37221 !important;
 }
 
-h4, h5 {
-  color: #111111;
+h3 {
+  color: rgb(165, 15, 15) !important;
+  font-size: 1.5rem;
 }
 
+h4,
+h5,
 p {
   color: #111111;
 }
 
-.maslow {
-  width: 50%;
+@media screen and (min-width: 700px) and (max-width: 1350px) {
+  .fontdacorregg {
+    font-size: 0.8rem !important;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 2050px) {
+  #spacer {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 1750px) and (max-width: 2050px) {
+  #spacer {
+    width: 40% !important;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1750px) {
+  #spacer {
+    width: 30% !important;
+  }
+}
+@media screen and (min-width: 1350px) and (max-width: 1550px) {
+  #spacer {
+    width: 20% !important;
+  }
+}
+@media screen and (max-width: 1350px) {
+  #spacer {
+    width: 5% !important;
+  }
+}
+@media screen and (max-width: 1150px) {
+  #spacer {
+    width: 0% !important;
+  }
 }/*# sourceMappingURL=app-D5.css.map */
