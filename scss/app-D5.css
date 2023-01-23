@@ -135,17 +135,26 @@ p {
 
 @media screen and (min-width: 1950px) {
   .spacerFooter {
+    border: white solid 1px !important;
     width: 50% !important;
   }
 }
-@media screen and (min-width: 1450px) and (max-width: 1950px) {
+@media screen and (min-width: 1600px) and (max-width: 1950px) {
   .spacerFooter {
+    border: rgb(221, 20, 20) solid 1px !important;
     width: 40% !important;
   }
 }
-@media screen and (min-width: 1050px) and (max-width: 1450px) {
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
   .spacerFooter {
+    border: blueviolet solid 1px !important;
     width: 20% !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .spacerFooter {
+    border: yellow solid 1px !important;
+    width: 5% !important;
   }
 }
 
