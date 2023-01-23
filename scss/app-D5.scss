@@ -3,6 +3,7 @@ $realBlack: #111111;
 $realOrange: #f37221;
 $realRed: #f35246;
 $darkRed: rgb(165, 15, 15);
+$realWhite: whitesmoke;
 
 body {
   font-family: "Spectral", serif;
@@ -20,7 +21,6 @@ body {
 
 .dropdown-RealOrange {
   background-color: $realOrange;
-
 }
 
 @mixin baseButton($mainColor, $secondColor) {
@@ -75,11 +75,11 @@ small {
 }
 
 h1,
-h2{
+h2 {
   color: $realOrange !important;
 }
 
-h3{
+h3 {
   color: $darkRed !important;
   font-size: 1.5rem;
 }
@@ -90,14 +90,19 @@ p {
   color: $realBlack;
 }
 
-.fontdacorregg {
-  @media screen and (min-width: 700px) and (max-width: 1350px) {
+.navFontCorrector {
+  text-align: center;
+  @media screen and (min-width: 700px) and (max-width: 1150px) {
     font-size: 0.8rem !important;
+    text-align: center;
+  }
+  @media screen and (min-width: 700px) and (max-width: 1050px) {
+    font-size: 0.6rem !important;
     text-align: center;
   }
 }
 
-#spacer {
+.spacerNav {
   @media screen and (min-width: 2050px) {
     // border: white solid 1px !important;
     width: 50% !important;
@@ -122,3 +127,20 @@ p {
     width: 0% !important;
   }
 }
+
+.spacerFooter {
+  @media screen and (min-width: 1950px) {
+    // border: white solid 1px !important;
+    width: 50% !important;
+  }
+  @media screen and (min-width: 1450px) and (max-width: 1950px) {
+    // border: rgb(221, 20, 20) solid 1px !important;
+    width: 40% !important;
+  }
+  @media screen and (min-width: 1050px) and (max-width: 1450px) {
+    // border: blueviolet solid 1px !important;
+    width: 20% !important;
+  }
+}
+
+@import "theme";

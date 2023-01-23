@@ -86,40 +86,97 @@ p {
   color: #111111;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1350px) {
-  .fontdacorregg {
+.navFontCorrector {
+  text-align: center;
+}
+@media screen and (min-width: 700px) and (max-width: 1150px) {
+  .navFontCorrector {
     font-size: 0.8rem !important;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1050px) {
+  .navFontCorrector {
+    font-size: 0.6rem !important;
     text-align: center;
   }
 }
 
 @media screen and (min-width: 2050px) {
-  #spacer {
+  .spacerNav {
     width: 50% !important;
   }
 }
 @media screen and (min-width: 1750px) and (max-width: 2050px) {
-  #spacer {
+  .spacerNav {
     width: 40% !important;
   }
 }
 @media screen and (min-width: 1550px) and (max-width: 1750px) {
-  #spacer {
+  .spacerNav {
     width: 30% !important;
   }
 }
 @media screen and (min-width: 1350px) and (max-width: 1550px) {
-  #spacer {
+  .spacerNav {
     width: 20% !important;
   }
 }
 @media screen and (max-width: 1350px) {
-  #spacer {
+  .spacerNav {
     width: 5% !important;
   }
 }
 @media screen and (max-width: 1150px) {
-  #spacer {
+  .spacerNav {
     width: 0% !important;
   }
+}
+
+@media screen and (min-width: 1950px) {
+  .spacerFooter {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1950px) {
+  .spacerFooter {
+    width: 40% !important;
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1450px) {
+  .spacerFooter {
+    width: 20% !important;
+  }
+}
+
+.light {
+  color: #111111;
+  background-color: whitesmoke;
+}
+.light h1,
+.light h2,
+.light h3 {
+  color: #f37221;
+}
+.light p,
+.light h4,
+.light h5,
+.light ul {
+  color: #111111;
+}
+
+.dark {
+  color: #f37221;
+  background-color: #111111;
+}
+.dark p,
+.dark h4,
+.dark h5,
+.dark ul {
+  color: whitesmoke;
+}
+.dark h1,
+.dark h2,
+.dark h3 {
+  color: whitesmoke;
 }/*# sourceMappingURL=app-D5.css.map */

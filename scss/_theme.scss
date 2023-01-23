@@ -1,0 +1,72 @@
+.light {
+  color: $realBlack;
+  background-color: $realWhite;
+  h1,
+  h2,
+  h3 {
+    color: $realOrange;
+  }
+  p,
+  h4,
+  h5,
+  ul {
+    color: $realBlack;
+  }
+}
+.dark {
+  color: $realOrange;
+  p,
+  h4,
+  h5,
+  ul {
+    color: $realWhite;
+  }
+  background-color: $realBlack;
+  h1,
+  h2,
+  h3 {
+    color: $realWhite;
+  }
+}
+
+// @function themeLight ($bl, $or, $wh) {
+//     // $result: 1;
+//     // @for $_ from 1 through $exponent {
+//     //   $result: $result * $base;
+//     // }
+//     // @return $result;
+//     $result1: $bl;
+//     $result2: $wh;
+//         h1,
+//         h2,
+//         h3 {
+//           color: $or;
+//         }
+//         p,
+//         h4,
+//         h5,
+//         ul {
+//           color: $bl;
+//         }
+//       }
+
+//     @function themeDark($bl, $or, $wh) {
+//         color: $or;
+//         p,
+//         h4,
+//         h5,
+//         ul {
+//           color: $wh;
+//         }
+//         background-color: $bl;
+//         h1,
+//         h2,
+//         h3 {
+//           color: $wh;
+//         }
+//       }
+
+
+//   .light {
+//     theme()
+//   }
