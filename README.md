@@ -39,6 +39,6 @@ Bootstrap
 Dom Manipulation
 
 ![image](https://github.com/Vallerga/U2-W2-D5-skillyouneed/assets/96259359/921112e0-2f18-4571-a7bf-c81501734275)
-![image](https://github.com/Vallerga/U2-W2-D5-skillyouneed/assets/96259359/cb9c2283-e40c-41f4-911b-4011b83a325d)
-![image](https://github.com/Vallerga/U2-W2-D5-skillyouneed/assets/96259359/77dd97a0-5328-486d-8d89-bb8c17471c4b)
-
+![image](https://github.com/Vallerga/U2-W2-D5-skillyouneed/assets/96259359/988839ad-7af2-4ba4-9816-0352b898bc17)
+![image](https://github.com/Vallerga/U2-W2-D5-skillyouneed/assets/96259359/784a4069-a2e2-4ccf-89fe-ee199b896c20)
+![image](https://github.com/Vallerga/U2-W2-D5-skillyouneed/assets/96259359/f24b053a-613a-423c-947d-08d79989ada9)
